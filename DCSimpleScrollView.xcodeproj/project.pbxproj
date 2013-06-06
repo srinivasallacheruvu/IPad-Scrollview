@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F4B0F6B135896A300A27F58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4B0F6A135896A300A27F58 /* UIKit.framework */; };
+		9F4B0F6D135896A300A27F58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4B0F6C135896A300A27F58 /* Foundation.framework */; };
+		9F4B0F6F135896A300A27F58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4B0F6E135896A300A27F58 /* CoreGraphics.framework */; };
+		9F4B0F75135896A300A27F58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B0F73135896A300A27F58 /* InfoPlist.strings */; };
+		9F4B0F78135896A300A27F58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4B0F77135896A300A27F58 /* main.m */; };
+		9F4B0F7B135896A400A27F58 /* DCSimpleScrollViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4B0F7A135896A400A27F58 /* DCSimpleScrollViewAppDelegate.m */; };
+		9F4B0F7E135896A400A27F58 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B0F7C135896A400A27F58 /* MainWindow.xib */; };
+		9F4B0F851358977C00A27F58 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4B0F841358977C00A27F58 /* QuartzCore.framework */; };
+		9F4B0F88135897F100A27F58 /* DCSimpleScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4B0F87135897F100A27F58 /* DCSimpleScrollViewController.m */; };
+		9F4B0F8C1358B6EF00A27F58 /* leaves2-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4B0F8B1358B6EF00A27F58 /* leaves2-50.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F4B0F66135896A300A27F58 /* DCSimpleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCSimpleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4B0F6A135896A300A27F58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F4B0F6C135896A300A27F58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F4B0F6E135896A300A27F58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F4B0F72135896A300A27F58 /* DCSimpleScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCSimpleScrollView-Info.plist"; sourceTree = "<group>"; };
+		9F4B0F74135896A300A27F58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F4B0F76135896A300A27F58 /* DCSimpleScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCSimpleScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		9F4B0F77135896A300A27F58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F4B0F79135896A300A27F58 /* DCSimpleScrollViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCSimpleScrollViewAppDelegate.h; sourceTree = "<group>"; };
+		9F4B0F7A135896A400A27F58 /* DCSimpleScrollViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCSimpleScrollViewAppDelegate.m; sourceTree = "<group>"; };
+		9F4B0F7D135896A400A27F58 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9F4B0F841358977C00A27F58 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9F4B0F86135897F100A27F58 /* DCSimpleScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSimpleScrollViewController.h; sourceTree = "<group>"; };
+		9F4B0F87135897F100A27F58 /* DCSimpleScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSimpleScrollViewController.m; sourceTree = "<group>"; };
+		9F4B0F8B1358B6EF00A27F58 /* leaves2-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leaves2-50.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F4B0F63135896A300A27F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4B0F851358977C00A27F58 /* QuartzCore.framework in Frameworks */,
+				9F4B0F6B135896A300A27F58 /* UIKit.framework in Frameworks */,
+				9F4B0F6D135896A300A27F58 /* Foundation.framework in Frameworks */,
+				9F4B0F6F135896A300A27F58 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F4B0F5B135896A300A27F58 = {
+			isa = PBXGroup;
+			children = (
+				9F4B0F70135896A300A27F58 /* DCSimpleScrollView */,
+				9F4B0F69135896A300A27F58 /* Frameworks */,
+				9F4B0F67135896A300A27F58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F4B0F67135896A300A27F58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F4B0F66135896A300A27F58 /* DCSimpleScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F4B0F69135896A300A27F58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F4B0F841358977C00A27F58 /* QuartzCore.framework */,
+				9F4B0F6A135896A300A27F58 /* UIKit.framework */,
+				9F4B0F6C135896A300A27F58 /* Foundation.framework */,
+				9F4B0F6E135896A300A27F58 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F4B0F70135896A300A27F58 /* DCSimpleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				9F4B0F79135896A300A27F58 /* DCSimpleScrollViewAppDelegate.h */,
+				9F4B0F7A135896A400A27F58 /* DCSimpleScrollViewAppDelegate.m */,
+				9F4B0F86135897F100A27F58 /* DCSimpleScrollViewController.h */,
+				9F4B0F87135897F100A27F58 /* DCSimpleScrollViewController.m */,
+				9F4B0F7C135896A400A27F58 /* MainWindow.xib */,
+				9F4B0F71135896A300A27F58 /* Supporting Files */,
+			);
+			path = DCSimpleScrollView;
+			sourceTree = "<group>";
+		};
+		9F4B0F71135896A300A27F58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F4B0F8B1358B6EF00A27F58 /* leaves2-50.png */,
+				9F4B0F72135896A300A27F58 /* DCSimpleScrollView-Info.plist */,
+				9F4B0F73135896A300A27F58 /* InfoPlist.strings */,
+				9F4B0F76135896A300A27F58 /* DCSimpleScrollView-Prefix.pch */,
+				9F4B0F77135896A300A27F58 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F4B0F65135896A300A27F58 /* DCSimpleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4B0F81135896A400A27F58 /* Build configuration list for PBXNativeTarget "DCSimpleScrollView" */;
+			buildPhases = (
+				9F4B0F62135896A300A27F58 /* Sources */,
+				9F4B0F63135896A300A27F58 /* Frameworks */,
+				9F4B0F64135896A300A27F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCSimpleScrollView;
+			productName = DCSimpleScrollView;
+			productReference = 9F4B0F66135896A300A27F58 /* DCSimpleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F4B0F5D135896A300A27F58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Dovetail Computing, Inc";
+			};
+			buildConfigurationList = 9F4B0F60135896A300A27F58 /* Build configuration list for PBXProject "DCSimpleScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F4B0F5B135896A300A27F58;
+			productRefGroup = 9F4B0F67135896A300A27F58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F4B0F65135896A300A27F58 /* DCSimpleScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F4B0F64135896A300A27F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4B0F75135896A300A27F58 /* InfoPlist.strings in Resources */,
+				9F4B0F7E135896A400A27F58 /* MainWindow.xib in Resources */,
+				9F4B0F8C1358B6EF00A27F58 /* leaves2-50.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F4B0F62135896A300A27F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4B0F78135896A300A27F58 /* main.m in Sources */,
+				9F4B0F7B135896A400A27F58 /* DCSimpleScrollViewAppDelegate.m in Sources */,
+				9F4B0F88135897F100A27F58 /* DCSimpleScrollViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F4B0F73135896A300A27F58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F4B0F74135896A300A27F58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F4B0F7C135896A400A27F58 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F4B0F7D135896A400A27F58 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F4B0F7F135896A400A27F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9F4B0F80135896A400A27F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		9F4B0F82135896A400A27F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCSimpleScrollView/DCSimpleScrollView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "DCSimpleScrollView/DCSimpleScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F4B0F83135896A400A27F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCSimpleScrollView/DCSimpleScrollView-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "DCSimpleScrollView/DCSimpleScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F4B0F60135896A300A27F58 /* Build configuration list for PBXProject "DCSimpleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4B0F7F135896A400A27F58 /* Debug */,
+				9F4B0F80135896A400A27F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F4B0F81135896A400A27F58 /* Build configuration list for PBXNativeTarget "DCSimpleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4B0F82135896A400A27F58 /* Debug */,
+				9F4B0F83135896A400A27F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F4B0F5D135896A300A27F58 /* Project object */;
+}
